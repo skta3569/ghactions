@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Add Reviewers
-      - uses: madrapps/add-reviewers@v1
+        uses: madrapps/add-reviewers@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           reviewers: skta3569
